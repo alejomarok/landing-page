@@ -12,17 +12,17 @@ import Form from './components/form/Form'
 import Footer from './components/footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
+    
     <>
       <Header />
-      <Home />
-      <About />
-      <Services />
-      <Products />
-      <Details />
-      <Form />
+      <section id="home"><Home /></section>
+      <section id="aboutus"><About /></section>
+      <section id="services"><Services /></section>
+      <section id="products"><Products /></section>
+      <section id="details"><Details /></section>
+      <section id="contact"><Form /></section>
       <Footer />
     </>
   )

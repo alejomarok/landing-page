@@ -7,12 +7,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from './images/logo_25w@2x.png'
 
 const Header = () => {
-    const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        // Cuando el desplazamiento es mayor que 0, cambia el estado para aplicar estilos diferentes
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -26,14 +25,12 @@ const Header = () => {
     };
   }, []);
 
-  const navbarClass = scrolled ? 'navbar scrolled' : 'navbar';
+  const navbarClass = scrolled ? 'navbar bg-body-tertiary position-fixed' : 'navbar bg-body-tertiary';
 
-  
-  
   
     return (
 
-    <Navbar expand="lg" className="bg-body-tertiary position">
+    <Navbar expand="lg" className="bg-body-tertiary position navbarClass">
     <Container>
     <img
               src={logo}
@@ -48,7 +45,7 @@ const Header = () => {
           <Nav.Link href="#home" className='navbar-button' >Home</Nav.Link>
           <Nav.Link href="#aboutus" className='navbar-button'>About us</Nav.Link>
           <Nav.Link href="#services" className='navbar-button'>Services</Nav.Link>
-          <Nav.Link href="#produucts" className='navbar-button'>Products</Nav.Link>
+          <Nav.Link href="#products" className='navbar-button'>Products</Nav.Link>
           <Nav.Link href="#details" className='navbar-button'>Details</Nav.Link>
           <Nav.Link href="#contact" className='navbar-button'>Contact</Nav.Link>
 
