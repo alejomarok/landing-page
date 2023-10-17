@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "París, Francia",
+    "touristSpot": "La Torre Eiffel",
+    "characteristics": [
+      "Impresionante vista panorámica.",
+      "Arquitectura icónica.",
+      "Ambiente romántico.",
+      "Cocina gourmet."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Roma, Italia",
+    "touristSpot": "El Coliseo",
+    "characteristics": [
+      "Anfiteatro histórico.",
+      "Gladiadores y luchas de época.",
+      "Monumento antiguo.",
+      "Gastronomía deliciosa."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kioto, Japón",
+    "touristSpot": "Templo Kinkaku-ji",
+    "characteristics": [
+      "Paisajes de ensueño.",
+      "Cultura tradicional japonesa.",
+      "Paz y serenidad.",
+      "Platos locales exquisitos."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Nueva York, Estados Unidos",
+    "touristSpot": "Estátua da Liberdade",
+    "characteristics": [
+      "Símbolo de libertad.",
+      "Majestuosa estatua.",
+      "Vistas espectaculares de Manhattan.",
+      "Diversidad culinaria."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Santorini, Grecia",
+    "touristSpot": "Oia",
+    "characteristics": [
+      "Puestas de sol inolvidables.",
+      "Arquitectura de las Cícladas.",
+      "Playas de aguas cristalinas.",
+      "Vino local delicioso."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Machu Picchu, Perú",
+    "touristSpot": "Ciudadela Inca",
+    "characteristics": [
+      "Maravilla arqueológica.",
+      "Senderismo impresionante.",
+      "Cultura incaica.",
+      "Gastronomía peruana."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kioto, Japón",
+    "touristSpot": "Templo Fushimi Inari Taisha",
+    "characteristics": [
+      "Miles de torii rojos.",
+      "Senderos en la montaña.",
+      "Espiritualidad japonesa.",
+      "Comida callejera deliciosa."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Barcelona, España",
+    "touristSpot": "Sagrada Familia",
+    "characteristics": [
+      "Arquitectura modernista.",
+      "Belleza arquitectónica.",
+      "Vistas panorámicas.",
+      "Tapas y vinos."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sídney, Australia",
+    "touristSpot": "Ópera de Sídney",
+    "characteristics": [
+      "Diseño icónico.",
+      "Espectáculos culturales.",
+      "Playas hermosas.",
+      "Mariscos frescos."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pekín, China",
+    "touristSpot": "Ciudad Prohibida",
+    "characteristics": [
+      "Historia imperial.",
+      "Arquitectura tradicional.",
+      "Jardines majestuosos.",
+      "Dim sum delicioso."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "El Cairo, Egipto",
+    "touristSpot": "Pirámides de Giza",
+    "characteristics": [
+      "Maravilla antigua.",
+      "Arqueología fascinante.",
+      "Paseos en camello.",
+      "Comida egipcia."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Marrakech, Marruecos",
+    "touristSpot": "Jardines Majorelle",
+    "characteristics": [
+      "Jardines exuberantes.",
+      "Arte y cultura marroquíes.",
+      "Paseos relajantes.",
+      "Té de menta delicioso."
+    ]
+  }
+]

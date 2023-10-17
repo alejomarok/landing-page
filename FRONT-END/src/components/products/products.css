@@ -1,0 +1,44 @@
+.products{
+    padding-bottom: 104px;
+    background-color: #DCE1DA;
+    
+}
+.products-textos{
+    align-items: center;
+}
+.products-textos-1{
+    padding-top: 106px;
+    color: #E0752F;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+
+.card-individual{
+    border-radius: 0;
+    box-shadow: 0px 8px 24px #42533B66;
+    border-bottom: 5px solid #E0752F;
+    width: 276px;
+    height: 408px;}
+
+
+@media (max-width: 768px) { 
+    .cards{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        
+    }
+    .card-individual{
+        margin-bottom: 40px;
+    }
+      }

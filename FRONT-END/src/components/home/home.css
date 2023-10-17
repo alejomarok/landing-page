@@ -1,0 +1,85 @@
+.slider {
+    width: 100%;
+}
+
+.home-button{
+    color: white;
+    background-color: #E0752F;
+    width: 144px;
+    height: 48px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.home-contenido{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    padding-left: 0px;
+}
+
+.home-titulos{
+    color: white;
+    text-align: left;
+    width: 400px;
+    padding-bottom: 39px;
+}
+
+.home-subtitulos{
+    color: white;
+    width: 500px;
+    text-align: left;
+    padding-bottom: 44px;
+}
+
+.button {
+    background-color: red;
+}
+
+
+@media (max-width: 768px) { 
+    .slider {
+        width: 100%;
+    }
+    .home-contenido {
+      padding: 0px; 
+    }
+    
+    .home-titulos {
+      width: 100%; 
+    }
+  
+    .home-subtitulos {
+      width: 100%; 
+    }
+    
+    .home-button {
+      width: 100%;
+    }
+    .home-titulos{
+        color: white;
+        text-align: left;
+        width: 400px;
+        padding-bottom: 0px;
+    }
+    .home-button{
+        color: white;
+        background-color: #E0752F;
+        width: 104px;
+        height: 48px;
+        border: none;
+        border-radius: 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+  }
