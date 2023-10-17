@@ -1,0 +1,33 @@
+# Landing Page - Instrucciones de Configuración
+
+Este repositorio contiene una Landing Page con un servidor Node.js (backend) y una aplicación React (frontend).
+
+## Configuración del Backend
+
+1. Abre la terminal y navega a la carpeta del backend:
+   ```bash
+   cd landing-page/BACK-END
+
+2. Instala las dependencias del backend:
+
+    npm install
+
+3. Inicia el servidor Node.js:
+
+    node server.js
+
+## Configuración del Frontend
+
+1. Abre una nueva ventana de terminal y navega a la carpeta del frontend:
+
+    cd landing-page/FRONT-END
+
+2. Instala las dependencias del frontend:
+
+    npm install
+
+3. Inicia la aplicación React:
+
+    npm run dev
+
+    ¡Disfruta explorando tu Landing Page!
